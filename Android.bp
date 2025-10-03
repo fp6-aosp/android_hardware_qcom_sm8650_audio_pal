@@ -127,7 +127,7 @@ cc_library_shared {
     ],
 
     header_libs: [
-        "generated_kernel_headers",
+        "device_kernel_headers",
         "libacdb_headers",
         "libagm_headers",
         "libarosal_headers",
