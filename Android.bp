@@ -1,3 +1,10 @@
+soong_namespace {
+    imports: [
+        "hardware/qcom/sm8650/audio/agm",
+        "hardware/qcom/sm8650/audio/graphservices",
+    ],
+}
+
 cc_library_headers {
     name: "libarpal_headers",
     vendor: true,
